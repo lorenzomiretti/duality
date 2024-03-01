@@ -251,18 +251,14 @@ class Problem:
             Path-loss model: 3GPP TR 38.901, NLoS UMi - street canyon
         """
         # Carrier frequency (GHz)
-        f_c = 4.9
         f_c = 3.7
         # Pathloss exponent
-        PL_exp = 3.19
         PL_exp = 3.53
         # Average channel gain in dB at a reference distance of 1 meter 
-        Gamma_const = -32.4 
         Gamma_const = -22.4 
         # Minimum distance (i.e., the difference in height) between AP and UE in meters
         d_min = 10
         # Shadow fading std deviation [dB]
-        sig_SF = 8.2
         sig_SF = 7.82
         # Bandwidth [Hz]
         B = 100*10**6
@@ -309,7 +305,6 @@ class Problem:
             SF[:,l] = sqrtm(CovSF) @ SF[:,l]
 
         # Channel gain (normalized by noise power)
-        GammadB = Gamma_const - PL_exp*10*log10(dist) - 20*log10(f_c) - SF - N0
         GammadB = Gamma_const - PL_exp*10*log10(dist) - 21.3*log10(f_c) - SF - N0
 
         # Store positions and path loss
