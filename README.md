@@ -2,9 +2,9 @@
 
 This is a code package related to the following scientific article:
 
-Lorenzo Miretti, Renato L. G. Cavalcante, Emil Björnson, Slawomir Stan\'nczak, “UL-DL Duality for Cell-free Massive MIMO with Per-AP Power and Information Constraints,” arXiv preprint arXiv:2301.06520, 2023
+Lorenzo Miretti, Renato L. G. Cavalcante, Emil Björnson, Slawomir Stan\'nczak, “UL-DL Duality for Cell-free Massive MIMO with Per-AP Power and Information Constraints,” in *IEEE Transactions on Signal Processing*, vol. 72, pp. 1750-1765, 2024, doi: 10.1109/TSP.2024.3376809.
 
-The package contains a simulation environment that reproduces the numerical results in the article. _We encourage you to also perform reproducible research!
+The package contains a simulation environment that reproduces the numerical results in the article. We encourage you to also perform reproducible research!
 
 ## Abstract of the article
 
